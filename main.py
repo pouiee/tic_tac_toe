@@ -65,8 +65,8 @@ def turn(board):
 
     while p1_col == '' or p1_row == '':
         # user selects column and row to place marker 'X'
-        p1_col = input("Column? ")
         p1_row = input("Row? ")
+        p1_col = input("Column? ")
 
         if p1_col not in limits or p1_row not in limits:
             # evaluates conditions where an invalid response may be received
@@ -94,8 +94,8 @@ def turn(board):
 
     while p1_col == '' or p2_row == '':
         # user selects column and row to place marker 'X'
-        p2_col = input("Column? ")
         p2_row = input("Row? ")
+        p2_col = input("Column? ")
 
         if p2_col not in limits or p2_row not in limits:
             # evaluates conditions where an invalid response may be received
@@ -129,7 +129,7 @@ def game_loop():
 
     :return: 0 for executing normally
     """
-    print("Would you like to play a game with me?")
+    print("Would you like to play a game?")
     print("It's a two player game so bring a friend or just pretend you have one.")
     play_time = ''
     while play_time.upper() != 'N':
@@ -164,7 +164,8 @@ def game_loop():
                 # 3 returned for a cat game (but return value is irrelevant)
                 print("Looks like a Cat's Game! Play Again?")
     # ambiguous goodbye message filled with character
-    print("Well thanks for playing! Or not. I need a drink.")
+    print("Well thanks for playing!")
     return 0
 
-game_loop()
+if __name__ == '__main__':
+    game_loop()
