@@ -1,12 +1,9 @@
 Hello!
 
-I created this tic tac toe simulator for a Python Udemy course.
+I created this tic tac toe simulator.
 Two players, playing locally, will be able to enter columns and rows to place Xs and Os.
 
 Columns and rows have been labeled 1, 2, 3 with lowest values on bottom left and highest on top right.
 This naming convention was selected to make the game accessible to all players.
-
-I am interested in updating the layout to facilitate Machine Learning algorithm implementations.
-If anyone else is interested in this, please reach out and I can begin updating the code
 
 Thank you for reading and visiting my page and be sure to look at my other projects if you like this one!
