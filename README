@@ -1,7 +1,10 @@
 Hello!
 
-I created this tic tac toe simulator.
+I created this tic tac toe simulator using no object oriented programming, instead focusing on my functional 
+programming skills to create this game.
+
 Two players, playing locally, will be able to enter columns and rows to place Xs and Os.
+Alternatively, a game can be set up with two different AI players with new functions provided.
 
 Columns and rows have been labeled 1, 2, 3 with lowest values on bottom left and highest on top right.
 This naming convention was selected to make the game accessible to all players.
